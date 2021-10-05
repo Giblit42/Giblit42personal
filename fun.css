@@ -1,3 +1,56 @@
 body{
     background-color: lightblue;
 }
+
+h1{
+	font-family: "Times New Roman";
+	font-size: 2rem;
+	font-weight:bold;
+	color: navy;
+	margin-left: 20px;
+	
+}
+
+h2{
+	font-family: "Times New Roman";
+	font-size: 2rem;
+	font-style: italic;
+	color: navy;
+	margin-left: 20px;
+	
+}
+
+p{
+	font-family: Arial, sans-serif;
+	font-size: 1rem;
+	font-style: italic;
+	color: black;
+	
+}
+
+img{
+	width: auto;
+	height: auto;
+}
+
+ul, ol {
+	font: Arial 1rem;
+}
+
+.menu{
+	background: #889;
+	list-style: none;
+	text-align: center;
+	li{
+		background: #889;
+		
+		&hover{
+			background: lighten(#889, 10%);
+		}
+		
+	}
+	
+	a{
+		color: #fff;
+	}
+}
